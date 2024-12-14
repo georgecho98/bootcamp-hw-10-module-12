@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './style.css';
+import './style.css'
 
-function Form() {
+function Contact() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -25,7 +25,7 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
+    <div className="form" >
       <h1>
         Hello {firstName} {lastName}
       </h1>
@@ -52,4 +52,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Contact;
