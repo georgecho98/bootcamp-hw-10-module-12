@@ -1,30 +1,27 @@
 ## My Porfolio 
 
 ## Description
-    THis is a openAI interfaced weather forcase. when you input the city, it will output the weather data. 
+    This is a porfolio website of myself. It has my Bio, sample projects view, message input, my links and intro. Thanks for viewing. 
 
     
 ## Table of Contents
 1. [Installation](#installation)
-2. [Usage](#usage)
-3. [License](#license)
-4. [Credit](#credit)
-5. [Tests](#tests)
-6. [Questions](#questions)
+2. [License](#license)
+3. [Credit](#credit)
+4. [Tests](#tests)
+5. [Questions](#questions)
 
 
 ## Installation 
     
-    Download the repostary. npm install, npm install axiom, npm install react-router-dom , npm run build, npm run start.
-    
-## Usage
+    Download the repostary. npm install, npm install axiom, npm install gh-pages --save-dev, npm install react-router-dom , npm run build, npm run start.
     
 
 ## License
     no license
 
 ## Credit
-    
+    Vite, 
 
 ## Tests
     npm run test

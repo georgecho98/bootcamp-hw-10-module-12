@@ -5,6 +5,8 @@ function Contact() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+  const [Email, setEmail] = useState('');
+  const [Message, setMessage] = useState('');
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -43,6 +45,20 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="Last Name"
+        />
+        <input
+          value={Email}
+          name="Email"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Email"
+        />
+        <input
+          value={Message}
+          name="Message"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Message"
         />
         <button type="submit">
           Submit
