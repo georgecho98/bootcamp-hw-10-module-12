@@ -20,10 +20,10 @@ return (
     
     className={'a'}>
      Contact Me </Link>               
-    {/* <link to="/Resume"
+    <Link to="/Resume"
  
-    className={'run-buddy'}>
-    Resume </link>     */}
+    className={'a'}>
+    Resume </Link>    
 
 </nav>
 

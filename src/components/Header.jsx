@@ -2,8 +2,6 @@ import './style.css'
 import Navigation from './Navigation';
 import { Routes, Route, Link, Outlet } from 'react-router-dom';
 
-
-
 function Header() {
   return (
     <header className="header">
