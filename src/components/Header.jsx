@@ -5,7 +5,7 @@ import { Routes, Route, Link, Outlet } from 'react-router-dom';
 function Header() {
   return (
     <header className="header">
-        <h1>Hon's Portfolio'</h1>
+        <h1>Hon's Portfolio</h1>
           <Navigation />
     </header>
   );

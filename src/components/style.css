@@ -33,23 +33,31 @@ p {
   margin: 0;
 }
 
+/* */
+
 header {
-  padding: 15px 6% 15px 0;
+  padding: 15px 6% 50px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   background-color: var(--tertiary);
+  background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #444cf7, #444cf7 50%, #e5e5f7 50%);
+  background-size: 20px 20px;
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
 }
 
 header h1 {
   color: var(--tertiary);
-  background-color: var(--secondary);
-  padding: 5px 1% 5px 6%;
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(135deg, #45f1f7 25%, transparent 25%), linear-gradient(225deg, #45f1f7 25%, transparent 25%), linear-gradient(45deg, #45f1f7 25%, transparent 25%), linear-gradient(315deg, #45f1f7 25%, #e5e5f7 25%);
+  background-repeat: repeat;
+  background-size: 20px 20px;
+  padding: 5px 1% 5px 3%;
   margin: 0;
-  font-size: 4vw;
+  
+  font-size: 3vw;
   line-height: 1;
 }
 
@@ -64,12 +72,13 @@ nav a {
   
   text-decoration: none;
   padding: 5px 10px;
-  color: var(--secondary);
+ 
   margin-right: 10px;
-  background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: bottom;
+
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(135deg, #45f1f7 25%, transparent 25%), linear-gradient(225deg, #45f1f7 25%, transparent 25%), linear-gradient(45deg, #45f1f7 25%, transparent 25%), linear-gradient(315deg, #45f1f7 25%, #e5e5f7 25%);
+  background-repeat: repeat;
+  background-size: 20px 20px;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
   justify-content: space-between;
@@ -149,10 +158,12 @@ main {
 
 .form {
   margin: 20px;
+  max-width: 60%;
+  padding-bottom: 25px;
 }
 
 .container-text-center {
-  margin: 20px;
+  margin: 50px;
 }
 
 .form input {
@@ -160,6 +171,20 @@ main {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+}
+
+.form h3
+{
+  text-align: center;
+
+}
+
+.form p input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 150px;
 }
 
 /* feature first portfolio item */
