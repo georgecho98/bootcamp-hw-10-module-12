@@ -11,7 +11,7 @@ import Project from './components/Project';
 import Header from './components/Header';
 
 import Navigation from './components/Navigation';
-
+import Resume from './components/Resume';
 import About from './components/About';
 import Contact from './components/Contact';
 
@@ -43,6 +43,10 @@ const router = createBrowserRouter([
         {
           path: 'Contact',
           element: <Contact />,
+        },
+        {
+          path: 'Resume',
+          element: <Resume />,
         },
         
 

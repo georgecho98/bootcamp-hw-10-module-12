@@ -32,7 +32,7 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // Alert the user their first and last name, clear the inputs
+    
     alert(`Hello ${Name}`);
     setName('');
     setEmail('');

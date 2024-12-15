@@ -187,6 +187,10 @@ main {
   height: 150px;
 }
 
+li {
+  text-align: left;
+}
+
 /* feature first portfolio item */
 .flex-item:first-child {
     min-height: 400px;
