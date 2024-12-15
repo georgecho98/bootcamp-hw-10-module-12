@@ -212,6 +212,7 @@ main {
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  padding-top: 40px;
 }
 
 .contact address a {
