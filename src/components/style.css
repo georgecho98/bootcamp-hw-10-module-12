@@ -235,6 +235,16 @@ main {
   color: var(--secondary);
 }
 
+.Mypic {
+  background-image: url("../assets/images/fff.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  justify-content: left;
+  padding-bottom: 100px;
+   }
+
 .run-buddy {
   background-image: url("../assets/images/cooking.jpg");
   background-size: cover;
