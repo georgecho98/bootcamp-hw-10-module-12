@@ -11,8 +11,7 @@ function Resume() {
   return (
     <div>
             
-
-            <ul>
+           <ul>
             <li>Programming skills:</li>
             <li>Use java and python to develop payroll report programming logic, database organization/sorting program,
             warehouse and equipment database.</li>

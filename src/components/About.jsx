@@ -14,8 +14,8 @@ function About() {
             <div className="Mypic" ></div>
             
             <p>
-                  My name is Hon chau and I had graduated with a electric power engineering degree 16 years ago. 
-                  I worked on manufacturing ontrol logics and whiskey brewery control design. I also worked in chips fabrication company. 
+                  My name is Hon chau and I had graduated with a engineering degree 16 years ago. 
+                  I worked on manufacturing control logics and whiskey brewery control design. I also worked in software company to develop interface between electronic device and application software. 
                   I had completed Java and python certificates courses. My passion is learning as such I m taking coding course to strength my programming skills. 
                   &nbsp;
                   &nbsp;
