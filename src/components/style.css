@@ -80,7 +80,7 @@ nav a {
   background-repeat: repeat;
   background-size: 20px 20px;
   transition: all 0.25s ease-in;
-  font-size: 1.4rem;
+  font-size: 1rem;
   justify-content: space-between;
 }
 
@@ -236,7 +236,7 @@ main {
 }
 
 .Mypic {
-  background-image: url("../assets/images/fff.jpeg");
+  background-image: url("../assets/images/xxx.png");
   background-size: cover;
   background-position: center;
   width: 200px;

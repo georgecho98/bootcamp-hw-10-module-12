@@ -2,13 +2,14 @@ import './style.css'
 
 const styles = {
   AboutStyle: {
-   justifyContent: 'left',
+    fontSize : '2rem',
+    textAlign: 'left'
   }
 };
 function About() {
   return (
     <div>
-            <h1 style = {styles.AboutStyle}> ABOUT ME </h1>
+            <div style = {styles.AboutStyle}> ABOUT ME </div>
             
             <div className="Mypic" ></div>
             
@@ -16,9 +17,9 @@ function About() {
                   My name is Hon chau and I had graduated with a electric power engineering degree 16 years ago. 
                   I worked on manufacturing ontrol logics and whiskey brewery control design. 
                   I had completed Java and python certificates courses. My passion is learning as such I m taking coding course to strength my programming skills. 
-            </p>
-            <p></p>
-            <p>
+                  &nbsp;
+                  &nbsp;
+
                   My family is from Taiwan. I have a                   
                   My interest are hiking, biking, watching movies, and have a good meal with friends. Austin is indeed the best place to place even in pandemic. 
                   This city has a lot of food restaurants from around the world. Most my friends all live around here. 
