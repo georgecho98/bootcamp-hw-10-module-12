@@ -30,6 +30,10 @@
     
     If you have any questions, feel free to reach out to me at (mailto:chauhk88@gmail.com).
     https://georgecho98.github.io/bootcamp-hw-10-module-12/
+    
+    Github repository:
+
+    https://github.com/georgecho98/bootcamp-hw-10-module-12
 
     netlify deployment: luminous-mousse-1a5c36.netlify.app
     

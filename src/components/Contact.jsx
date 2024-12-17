@@ -67,7 +67,7 @@ function Contact() {
           name="Message"
           onChange={handleMessageChange}
           type="text"
-          placeholder="Message"
+          
         />
 
 
